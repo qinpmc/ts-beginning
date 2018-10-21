@@ -5,11 +5,11 @@ console.log(str);
 console.log(num);
 console.log(b);
 var u = undefined;
-var n = null;
+/*let n: null = null;*/
 console.log(u);
-console.log(n);
+/*console.log(n);*/
 var unNum;
-console.log("unNum: ", unNum);
+console.log("unNum: ", unNum); //undefined
 /*数组类型*/
 var ary1 = [1, 2, 3];
 var ary2 = [4, 5, 6];
@@ -20,6 +20,7 @@ var tu1 = [333, "hhh"];
 console.log(tu1);
 /*let tu2:[number,number,boolean] = [555,666,777,true]; //错误
 console.log(tu2);*/
+//枚举类型
 var Flag;
 (function (Flag) {
     Flag[Flag["success"] = 1] = "success";
@@ -36,3 +37,7 @@ var Flag2;
 })(Flag2 || (Flag2 = {}));
 var f2 = Flag2.red;
 console.log(f2); //0
+//never类型
+function error(mes) {
+    throw new Error(mes);
+}

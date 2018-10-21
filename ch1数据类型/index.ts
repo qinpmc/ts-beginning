@@ -7,10 +7,10 @@ console.log(num);
 console.log(b);
 
 let u: undefined = undefined;
-let n: null = null;
+/*let n: null = null;*/
 
 console.log(u);
-console.log(n);
+/*console.log(n);*/
 
 let unNum:number;
 console.log("unNum: ",unNum); //undefined
@@ -32,6 +32,8 @@ console.log(tu1);
 /*let tu2:[number,number,boolean] = [555,666,777,true]; //错误
 console.log(tu2);*/
 
+
+//枚举类型
 enum Flag {
     success = 1,
     error= 0
@@ -49,7 +51,7 @@ enum Flag2 {
 let f2:Flag2 = Flag2.red;
 console.log(f2); //0
 
-//never
+//never类型
 function error(mes:string):never{
     throw new Error(mes);
 }

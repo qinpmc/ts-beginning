@@ -1,56 +1,33 @@
-let str:string = "hello";
-let num:number = 123;
-let b:boolean = true;
-
-console.log(str);
-console.log(num);
-console.log(b);
-
-let u: undefined = undefined;
-let n: null = null;
-
-console.log(u);
-console.log(n);
-
-let unNum:number;
-console.log("unNum: ",unNum); //undefined
-
-
-
-/*数组类型*/
-let ary1:number[] = [1,2,3];
-let ary2:Array<number> = [4,5,6];
-
-console.log(ary1);
-console.log(ary2);
-
-/*元组类型*/
-let tu1:[number,string] = [333,"hhh"];
-console.log(tu1);
-
-
-/*let tu2:[number,number,boolean] = [555,666,777,true]; //错误
-console.log(tu2);*/
-
-enum Flag {
-    success = 1,
-    error= 0
-}
-console.log(Flag.success);  //1
-let f1:Flag = Flag.error;
-console.log(f1);   //0
-
-
-enum Flag2 {
-    red,
-    yellow,
-    blue
-}
-let f2:Flag2 = Flag2.red;
-console.log(f2); //0
-
-//never
-function error(mes:string):never{
-    throw new Error(mes);
+function add(x: number, y: number): number {
+    return x + y;
 }
 
+//函数表达式
+let myAdd = function(x: number, y: number): number { return x + y; };
+
+//等同上方
+let myAdd2:(baseValue:number,increment:number) =>number = function(x:number,y:number):number{
+    return x+y;
+}
+
+//可选参数
+function buildName(fName:string,lName?:string){
+    if(lName){
+        return fName+" "+ lName;
+    }
+    return fName;
+}
+
+//错误，可选参数必须在必须参数后面
+/*
+function buildName2(country:string,fName?:string,lName:string){
+    if(lName){
+        return fName+" "+ lName;
+    }
+    return fName;
+}*/
+
+// 默认参数，默认参数可在任何位置
+function buildName3(firstName: string, lastName = "Smith") {
+    return firstName + " " + lastName;
+}

@@ -47,3 +47,35 @@ let u: undefined;
 let num: number = u;
 ```
 
+3.any 类型
+
+- 任意值上访问任何属性/方法都是允许的
+- 变量如果在声明的时候，未指定其类型，那么它会被识别为任意值类型
+
+```
+//任意值上访问任何属性/方法都是允许的
+let anyThing: any = 'hello';
+console.log(anyThing.myName);
+console.log(anyThing.myName.firstName);
+
+//变量如果在声明的时候，未指定其类型，那么它会被识别为任意值类型：
+
+let something;
+something = 'seven';
+something = 7;
+
+something.setName('Tom');
+```
+
+4. 类型推论
+
+```
+//类型推论
+let myFavoriteNumber = 'seven';  // myFavoriteNumber 推论成 string
+//myFavoriteNumber = 7; //报错
+```
+
+
+
+
+
