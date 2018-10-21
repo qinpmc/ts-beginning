@@ -1,5 +1,6 @@
-function sayError(person: string) {
+"use strict";
+function sayError(person) {
     return 'Hello, ' + person;
 }
-let user2 = [0, 1, 2];
+var user2 = [0, 1, 2];
 //console.log(sayError(user2));

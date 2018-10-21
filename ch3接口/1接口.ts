@@ -19,9 +19,13 @@ function printLabel2(labelledObj: LabelledValue) {
 let myObj2 = {size: 20, label: "Size 20 Object"};
 printLabel2(myObj2);
 
+printLabel2({
+    size: 30,
+    label: "Size 30 Object",
+    name:"hh"
+});
 
-
-
+//可选属性
 interface SquareConfig {
     color?: string;
     width: number;
@@ -46,3 +50,14 @@ let mySquare = createSquare({ width: 100, opacity: 0.5 } as SquareConfig); //绕
 //另外一种绕过
 let squareOptions = { colour: "red", width: 100 };
 let mySquare2 = createSquare(squareOptions);
+
+
+//只读属性
+
+interface Point {
+     x: number;
+    readonly y: number;
+}
+let p1: Point = { x: 10, y: 20 };
+console.log(p1.x);
+
