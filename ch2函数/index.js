@@ -1,3 +1,4 @@
+//函数声明
 function add(x, y) {
     return x + y;
 }

@@ -75,6 +75,22 @@ let myFavoriteNumber = 'seven';  // myFavoriteNumber 推论成 string
 //myFavoriteNumber = 7; //报错
 ```
 
+5. 联合类型
+- 联合类型使用 | 分隔每个类型
+- 访问联合类型的属性或方法时，当 TypeScript 不确定一个联合类型的变量到底是哪个类型的时候，
+  我们只能访问此联合类型的所有类型里 __共有的属性或方法__
+
+```
+/*function getLength(something: string | number): number {
+    return something.length; // 错误
+}*/
+
+
+function getString(something: string | number): string {
+    return something.toString(); //string 和number 都有toString方法
+}
+```
+
 
 
 

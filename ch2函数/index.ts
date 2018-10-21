@@ -1,3 +1,5 @@
+
+//函数声明
 function add(x: number, y: number): number {
     return x + y;
 }
