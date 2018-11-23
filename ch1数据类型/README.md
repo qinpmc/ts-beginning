@@ -13,6 +13,54 @@
 - void
 - never 
 
+- 数组类型
+
+```
+let arr:number[] = [1,2,3];
+console.log(arr);
+
+let arr2:Array<number> = [3,4,5];
+console.log(arr2);
+```
+
+
+- 元组类型
+
+```
+var tuple = [100, "hehe"];
+console.log(tuple);
+```
+
+- 枚举
+
+```
+enum Days{Sun,Mon,Tue,Wed,Thu,Fri,Sat};
+let day1 =Days.Thu;
+console.log(day1); //4,枚举默认从0开始
+
+enum Colors {Red =0,Blue=99,"Yellow" =5}
+
+console.log(Colors.Red); //0
+console.log(Colors.Blue); //99
+console.log(Colors.Yellow); //5
+```
+
+- any
+1. 任意值（Any）用来表示允许赋值为任意类型。   
+2. 变量如果在声明的时候，未指定其类型，那么它会被识别为任意值类型：
+
+```
+let box:any = document.getElementById("box");
+box.style.backgroundColor = "red";
+
+
+//变量如果在声明的时候，未指定其类型，那么它会被识别为任意值类型：
+let something;
+something = 'seven';
+something = 7;
+```
+
+
 
 - never类型
 表示的是那些永不存在的值的类型。 例如， never类型是那些总是会抛出异常或根本就不会有返回值的函数表达式或箭头函数表达式的返回值类型；    
@@ -35,7 +83,8 @@ let unusable: void = undefined;
 ```
 
 
-2. undefined 类型的变量只能被赋值为 undefined    
+2. undefined 和 null
+undefined 类型的变量只能被赋值为 undefined    
 null 类型的变量只能被赋值为 null   
 与 void 的区别是， undefined 和 null 是所有类型的子类型。也就是说undefined 类型的变量，可以赋值给 number 类型的变量   
 
@@ -47,25 +96,7 @@ let u: undefined;
 let num: number = u;
 ```
 
-3.any 类型
-
-- 任意值上访问任何属性/方法都是允许的
-- 变量如果在声明的时候，未指定其类型，那么它会被识别为任意值类型
-
-```
-//任意值上访问任何属性/方法都是允许的
-let anyThing: any = 'hello';
-console.log(anyThing.myName);
-console.log(anyThing.myName.firstName);
-
-//变量如果在声明的时候，未指定其类型，那么它会被识别为任意值类型：
-
-let something;
-something = 'seven';
-something = 7;
-
-something.setName('Tom');
-```
+ 
 
 4. 类型推论
 
