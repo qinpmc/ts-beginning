@@ -1,0 +1,18 @@
+"use strict";
+//可选参数
+function buildName(fName, lName) {
+    if (lName) {
+        return fName + " " + lName;
+    }
+    return fName;
+}
+console.log(buildName("qq1")); //qq1
+console.log(buildName("qq1", "aa1")); //qq1 aa1
+//编译错误（可选参数必须在必须参数后面） ，但可以运行
+function buildName2(country, fName, lName) {
+    if (lName) {
+        return fName + " " + lName;
+    }
+    return fName;
+}
+console.log(buildName2("qq2", "aa2", "zz2"));

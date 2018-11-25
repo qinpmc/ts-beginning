@@ -2,14 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c911a096-86a2-4c52-94ea-6bbda84dff13" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch1数据类型/6void-undefined-null类型.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch1数据类型/6void等类型.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch1数据类型/7never.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch1数据类型/7never.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch0Hello/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch2函数/1可选参数.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch2函数/1可选参数.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch4类/1类.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch4类/1类.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch4类/2类.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch4类/2类.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch4类/3类修饰符.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch4类/3类修饰符.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch4类/README.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch1数据类型/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch1数据类型/index.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch2函数/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ch2函数/index.ts" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch1数据类型/README.md" afterPath="$PROJECT_DIR$/ch1数据类型/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch1数据类型/index.js" afterPath="$PROJECT_DIR$/ch1数据类型/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch1数据类型/index.ts" afterPath="$PROJECT_DIR$/ch1数据类型/index.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch2函数/2函数重载.js" afterPath="$PROJECT_DIR$/ch2函数/2函数重载.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch2函数/2函数重载.ts" afterPath="$PROJECT_DIR$/ch2函数/2函数重载.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch2函数/README.md" afterPath="$PROJECT_DIR$/ch2函数/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/ch1数据类型/2任意值类型.js" afterPath="$PROJECT_DIR$/js/ch1数据类型/2任意值类型.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/ch2函数/2函数重载.js" afterPath="$PROJECT_DIR$/js/ch2函数/2函数重载.js" />
     </list>
     <ignored path="TypeScript入门.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,22 +42,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="6void-undefined-null类型.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch1数据类型/6void-undefined-null类型.ts">
+      <file leaf-file-name="2类.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch4类/2类.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="27" selection-end-column="29" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch1数据类型/README.md">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch4类/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="6.2299037">
-                <caret line="155" column="1" selection-start-line="155" selection-start-column="1" selection-end-line="155" selection-end-column="1" />
+              <first_editor vertical-scroll-proportion="0.8046875">
+                <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -56,11 +68,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="7never.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch1数据类型/7never.ts">
+      <file leaf-file-name="3类修饰符.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch4类/3类修饰符.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5859375">
+              <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3类修饰符.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch4类/3类修饰符.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.03125">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2类.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ch4类/2类.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.03125">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -90,10 +122,7 @@
         <option value="$PROJECT_DIR$/ch1数据类型/3类型推论.ts" />
         <option value="$PROJECT_DIR$/ch1数据类型/4联合类型.html" />
         <option value="$PROJECT_DIR$/ch1数据类型/4联合类型.ts" />
-        <option value="$PROJECT_DIR$/ch2函数/index.ts" />
-        <option value="$PROJECT_DIR$/ch2函数/README.md" />
         <option value="$PROJECT_DIR$/ch2函数/2函数重载.html" />
-        <option value="$PROJECT_DIR$/ch2函数/2函数重载.ts" />
         <option value="$PROJECT_DIR$/ch3接口/README.md" />
         <option value="$PROJECT_DIR$/ch3接口/1接口.html" />
         <option value="$PROJECT_DIR$/ch3接口/1接口.ts" />
@@ -113,6 +142,20 @@
         <option value="$PROJECT_DIR$/ch1数据类型/7never.html" />
         <option value="$PROJECT_DIR$/ch1数据类型/README.md" />
         <option value="$PROJECT_DIR$/ch1数据类型/7never.ts" />
+        <option value="$PROJECT_DIR$/ch2函数/1可选参数.html" />
+        <option value="$PROJECT_DIR$/ch2函数/1可选参数.js" />
+        <option value="$PROJECT_DIR$/ch2函数/1可选参数.ts" />
+        <option value="$PROJECT_DIR$/ch2函数/index.ts" />
+        <option value="$PROJECT_DIR$/ch2函数/README.md" />
+        <option value="$PROJECT_DIR$/ch0Hello/README.md" />
+        <option value="$PROJECT_DIR$/ch2函数/2函数重载.ts" />
+        <option value="$PROJECT_DIR$/ch4类/1类.html" />
+        <option value="$PROJECT_DIR$/ch4类/1类.ts" />
+        <option value="$PROJECT_DIR$/ch4类/2类.html" />
+        <option value="$PROJECT_DIR$/ch4类/2类.ts" />
+        <option value="$PROJECT_DIR$/ch4类/README.md" />
+        <option value="$PROJECT_DIR$/ch4类/3类修饰符.html" />
+        <option value="$PROJECT_DIR$/ch4类/3类修饰符.ts" />
       </list>
     </option>
   </component>
@@ -122,10 +165,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="169" />
-    <option name="y" value="219" />
+    <option name="x" value="124" />
+    <option name="y" value="327" />
     <option name="width" value="1936" />
-    <option name="height" value="1055" />
+    <option name="height" value="861" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -152,6 +195,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -180,7 +224,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="ch4类" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -194,44 +238,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="ch4类" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ch0Hello" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TypeScript入门" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TypeScript入门" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch1数据类型" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TypeScript入门" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TypeScript入门" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ch1数据类型" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="6void-undefined-null类型.ts" />
+              <option name="myItemId" value="1类.ts" />
               <option name="myItemType" value="com.intellij.lang.typescript.compiler.ui.projectView.TypeScriptNestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TypeScript入门" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TypeScript入门" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch3接口" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -250,7 +276,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files" />
       </pane>
@@ -267,6 +292,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\qinpmc\note\TypeScript\TypeScript入门\ch4类" />
+      <recent name="E:\qinpmc\note\TypeScript\TypeScript入门\ch0Hello" />
       <recent name="E:\qinpmc\note\TypeScript\TypeScript入门\ch1数据类型" />
       <recent name="F:\notes\ts_learn\TypeScript入门\ch3接口" />
       <recent name="F:\notes\ts_learn\TypeScript入门\ch1数据类型" />
@@ -336,12 +363,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="169" y="219" width="1936" height="1055" extended-state="0" />
+    <frame x="124" y="327" width="1936" height="861" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973601" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16705069" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript Compiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4495549" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -458,27 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch0Hello/HelloError.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch0Hello/HelloWorld.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20588236">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch2函数/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch1数据类型/3类型推论.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.617647">
@@ -514,41 +520,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch2函数/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="34" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch2函数/2函数重载.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.147059">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch2函数/2函数重载.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch2函数/2函数重载.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch2函数/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.8237368">
-            <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -598,7 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -606,7 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.46875">
           <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -614,7 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -622,7 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.46875">
           <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -638,7 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2539913">
           <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -646,9 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.46875">
           <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -656,15 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="8" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch1数据类型/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -672,15 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26636225">
           <caret line="7" column="35" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch1数据类型/6void-undefined-null类型.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="27" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,7 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34246576">
           <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -700,7 +648,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ch1数据类型/6void-undefined-null类型.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7246377">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="27" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch2函数/1可选参数.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.615942">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch2函数/1可选参数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.03125">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch2函数/1可选参数.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch2函数/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.8697917">
+            <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.8237368">
+            <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch2函数/2函数重载.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.46875">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ch1数据类型/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="5.0455728">
+            <caret line="155" column="1" selection-start-line="155" selection-start-column="1" selection-end-line="155" selection-end-column="1" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
       <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor vertical-scroll-proportion="2.6439483">
@@ -709,10 +725,31 @@
           <second_editor />
         </state>
       </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch0Hello/HelloWorld.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch0Hello/HelloError.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch0Hello/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="6.2299037">
-            <caret line="155" column="1" selection-start-line="155" selection-start-column="1" selection-end-line="155" selection-end-column="1" />
+          <first_editor vertical-scroll-proportion="0.4231771">
+            <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
             <folding />
           </first_editor>
           <second_editor />
@@ -720,6 +757,78 @@
       </provider>
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch2函数/2函数重载.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch4类/1类.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.03125">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch4类/1类.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch4类/2类.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.03125">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch4类/2类.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch4类/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.8046875">
+            <caret line="43" column="7" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch4类/3类修饰符.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.03125">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch4类/3类修饰符.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5859375">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
