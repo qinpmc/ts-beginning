@@ -57,3 +57,12 @@ var Son = (function (_super) {
 var son = new Son();
 son.printMeeting();
 son.newAbstractMethod();
+//抽象类可以没有抽象方法  
+var TestAbstract = (function () {
+    function TestAbstract() {
+    }
+    TestAbstract.prototype.method = function () {
+        console.log("hhh");
+    };
+    return TestAbstract;
+})();
