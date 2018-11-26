@@ -49,7 +49,7 @@ let son = new Son();
 son.printMeeting();
 son.newAbstractMethod();
 
-//抽象类可以没有抽象方法  
+//抽象类可以没有抽象方法
 abstract class TestAbstract {
     method():void{
         console.log("hhh");

@@ -1,9 +1,34 @@
+interface Person {
+    name: string;
+    age: number;
+}
+//定义的变量比接口少了一些属性是不允许的
+let tom: Person = {
+    name: 'Tom'
+};
+
+
+interface Person2 {
+    name: string;
+    age: number;
+}
+
+//多一些属性也是不允许的：
+let tom2: Person2 = {
+    name: 'Tom',
+    age: 25,
+    gender: 'male'
+};
+
+
+
 function printLabel1(labelledObj: { label: string }) {
     console.log(labelledObj.label);
 }
 
 let myObj1 = { size: 10, label: "Size 10 Object" };
-printLabel1(myObj1);
+printLabel1(myObj1); //Size 10 Object
+
 
 interface LabelledValue {
     label: string;
@@ -15,49 +40,24 @@ function printLabel2(labelledObj: LabelledValue) {
     }*/
     console.log(labelledObj.label);
 }
-
 let myObj2 = {size: 20, label: "Size 20 Object"};
-printLabel2(myObj2);
+printLabel2(myObj2); //Size 20 Object
 
+//注意 ：这种方式下，编译报错，多出属性 size
 printLabel2({
     size: 30,
     label: "Size 30 Object",
     name:"hh"
 });
 
-//可选属性
-interface SquareConfig {
-    color?: string;
-    width: number;
-}
-
-function createSquare(config: SquareConfig):{ color: string; area: number } {
-    // ...
-    return {
-        color:"color",
-        area:123
-    }
-}
 
 
-// ##  额外的属性检查
-//对象字面量会被特殊对待而且会经过 额外属性检查，当将它们赋值给变量或作为参数传递的时候。
-// 如果一个对象字面量存在任何“目标类型”不包含的属性时，你会得到一个错误。
-//let mySquare = createSquare({ colour: "red", width: 100 }); // colour 报错
-
-let mySquare = createSquare({ width: 100, opacity: 0.5 } as SquareConfig); //绕过编译器检查
-
-//另外一种绕过
-let squareOptions = { colour: "red", width: 100 };
-let mySquare2 = createSquare(squareOptions);
 
 
-//只读属性
 
-interface Point {
-     x: number;
-    readonly y: number;
-}
-let p1: Point = { x: 10, y: 20 };
-console.log(p1.x);
+
+
+
+
+
 
