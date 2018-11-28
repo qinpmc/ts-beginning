@@ -29,6 +29,9 @@ console.log(arr2);
 ```
 var tuple = [100, "hehe"];
 console.log(tuple);
+
+let xcatliu: [string, number] = ['Xcat Liu', 25];
+
 ```
 
 ##枚举
