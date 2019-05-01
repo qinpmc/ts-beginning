@@ -12,6 +12,29 @@
 - undefined
 - void
 - never 
+- object  表示非原始类型
+
+
+##
+
+```
+//boolean
+let isDone: boolean = false;
+
+//number
+let decLiteral: number = 6;
+let hexLiteral: number = 0xf00d;
+
+//  string
+let name: string = `Gene`;
+let sentence: string = `Hello, my name is ${ name }.
+```
+
+
+
+
+
+
 
 ##数组类型
 
