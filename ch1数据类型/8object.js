@@ -1,3 +1,6 @@
+function create(o) {
+}
+;
 create({ prop: 0 }); // OK
 // create(42); // Error
 var input = [1, 2];
@@ -7,3 +10,4 @@ function f(_a) {
     console.log(second);
 }
 f(input);
+greet("hello, world");
