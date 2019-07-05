@@ -50,12 +50,34 @@ console.log(arr2);
 ##元组类型
 
 ```
-var tuple = [100, "hehe"];
-console.log(tuple);
+// Declare a tuple type
+let x: [string, number];
 
-let xcatliu: [string, number] = ['Xcat Liu', 25];
+// Initialize it
+x = ['hello', 10]; // OK
+
+// Initialize it incorrectly
+x = [10, 'hello']; // Error];
+
+
 
 ```
+
+当访问一个越界的元素，会使用联合类型替代：
+
+```
+let x: [string, number];
+
+x[3] = 'world'; // OK, 字符串可以赋值给(string | number)类型
+
+console.log(x[5].toString()); // OK, 'string' 和 'number' 都有 toString
+
+x[6] = true; // Error, 布尔不是(string | number)类型
+
+```
+
+
+
 
 ##枚举
 
