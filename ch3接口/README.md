@@ -1,4 +1,5 @@
-# TypeScript接口
+# TypeScript 接口
+
 - 用于对「对象的形状（Shape）」进行描述
 - 定义的变量比接口少了一些属性是不允许的，多一些属性也是不允许的
 
@@ -26,7 +27,7 @@ let tom2: Person2 = {
 };
 ```
 
-## 注意以下方式，规定函数参数的“形状”，以变量形式传入，可以多出属性，直接以对象传入，不允许多出属性;  **均不允许少属性**；
+## 注意以下方式，规定函数参数的“形状”，以变量形式传入，可以多出属性，直接以对象传入，不允许多出属性; **也不允许少属性**；
 
 ```
 interface LabelledValue {
@@ -50,10 +51,10 @@ printLabel2({
 });
 ```
 
-
 ## 可选属性
-- 可选的属性可以没有，也可以有 
-- 仍然不允许添加未定义的属性 
+
+- 可选的属性可以没有，也可以有
+- 仍然不允许添加未定义的属性
 
 ```
 interface Person {
@@ -91,9 +92,18 @@ let tom3: Person3 = {
 };
 ```
 
+## 只读属性
 
-##  额外的属性检查
-对象字面量会被特殊对待而且会经过 额外属性检查，当将它们赋值给变量或作为参数传递的时候。
+```
+interface Point {
+    readonly x: number;
+    readonly y: number;
+}
+```
+
+## 额外的属性检查
+
+**对象字面量会被特殊对待**而且会经过 **额外属性检查**，当将它们赋值给变量或作为参数传递的时候。
 如果一个对象字面量存在任何“目标类型”不包含的属性时，你会得到一个错误。
 
 ```
@@ -114,9 +124,11 @@ function createSquare(config: SquareConfig):{ color: string; area: number } {
 
 //let mySquare = createSquare({ colour: "red", width: 100 }); // colour 报错,接口没有该属性
 
+
+// 第一种绕过---as
 let mySquare = createSquare({ width: 100, opacity: 0.5 } as SquareConfig); //绕过编译器检查
 
-//另外一种绕过
+// 另外一种绕过---对象赋值给变量
 let squareOptions = { colour: "red", width: 100 };
 let mySquare2 = createSquare(squareOptions);
 ```
@@ -157,9 +169,9 @@ interface Person22 {
 
 ```
 
-- TypeScript支持两种索引签名：字符串和数字。 可以同时使用两种类型的索引，但是数字索引的返回值必须是字符串索引返回值类型的子类型。
-- 这是因为当使用 number来索引时，JavaScript会将它转换成string然后再去索引对象。
-- 也就是说用 100（一个number）去索引等同于使用"100"（一个string）去索引，因此两者需要保持一致。
+- TypeScript 支持两种索引签名：字符串和数字。 可以同时使用两种类型的索引，但是**数字索引的返回值必须是字符串索引返回值类型的子类型**。
+- 这是因为当使用 number 来索引时，JavaScript 会将它转换成 string 然后再去索引对象。
+- 也就是说用 100（一个 number）去索引等同于使用"100"（一个 string）去索引，因此两者需要保持一致。
 
 ```
 class Animal {
@@ -179,6 +191,13 @@ interface NotOkay {
 interface Okay {
     [x: number]: Dog;
     [x: string]: Animal;
+}
+```
 
 ```
+interface NumberDictionary {
+  [index: string]: number;  //索引类型
+  length: number;    // 可以，length是number类型
+  name: string       // 错误，`name`的类型与索引类型返回值的类型不匹配
 }
+```

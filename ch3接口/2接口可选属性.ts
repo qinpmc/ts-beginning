@@ -52,8 +52,9 @@ function createSquare(config: SquareConfig):{ color: string; area: number } {
 
 //let mySquare = createSquare({ colour: "red", width: 100 }); // colour 报错,接口没有该属性
 
+// 第一种绕过---as
 let mySquare = createSquare({ width: 100, opacity: 0.5 } as SquareConfig); //绕过编译器检查
 
-//另外一种绕过
+// 另外一种绕过---对象赋值给变量
 let squareOptions = { colour: "red", width: 100 };
 let mySquare2 = createSquare(squareOptions);
